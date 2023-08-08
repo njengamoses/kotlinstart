@@ -1,0 +1,35 @@
+fun main(args: Array<String>) {
+    //While loop
+    var counterOne = 0
+    while (counterOne <= 5) {
+        println(counterOne)
+        counterOne++
+    }
+    //Do While loop
+    var counterTwo = 10
+    do{
+        println(counterTwo)
+        counterTwo++
+    }while (counterTwo <= 15)
+    //For loop
+    for (i in 20 .. 25){
+        println(1)
+    }
+    for (j in 50 downTo 45){
+        println(j)
+    }
+    var names = arrayListOf("Eugene", "Ray", "Dayvon")
+    for (jina in names){
+        println(jina)
+    }
+    //For each loop
+    names.forEach{
+        println(it)
+    }
+    //Repeat loop
+    repeat(2){
+        println("Hello there")
+    }
+
+
+}
